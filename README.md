@@ -1,9 +1,9 @@
 # MSAN
 This repository contains some of the work I completed during my Masters program at USFCA.
 
-* Determining Optimal Lyft Offers via Factorial Design (Jun. '17)
+* __Determining Optimal Lyft Offers via Factorial Design (Jun. '17)__
   - Group homework assignment for Design of Experiments to determine which conditions will result in the highest booking rate.
-* Clustering Names via Soundex / Levenshtein Distance (Jun. '17)
+* __Clustering Names via Soundex / Levenshtein Distance (Jun. '17)__
   - Homework assignment for Natural Language Processing that converts names using Soundex and clusters them using Levenshtein distance.
 * __Roomie Rec (Apr. '17)__
   - Group project for App Development to help users find like-minded roommates by clustering roommate descriptions.
