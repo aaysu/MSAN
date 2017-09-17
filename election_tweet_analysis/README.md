@@ -1,0 +1,2 @@
+# election_tweet_analysis
+Group project for Data Acquisition (MSAN 692) completed in October, 2016. We used Twitter’s API to gather data on the most recent tweets by users from two groups based on election-related hashtags, and analyzed the content of those tweets to find common patterns. Our analysis for each group included a list of the most commonly linked domains, a histogram of tweet sentiments, average tweet sentiment for specific topics, and creating a word cloud of the most frequent terms found in tweets.
