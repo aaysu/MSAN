@@ -1,0 +1,78 @@
+<html>
+<body>
+<h1>CraigsRecommendation</h1>
+<form action = '/recommendation' method = 'get'>
+<b> Maximum price</b>: <input type = 'text' name = 'max_price'/> <br>
+<b> Minimum price</b>: <input type = 'text' name = 'min_price'/> <br>
+<b> Move-in date</b> (yyyy-mm-dd):  <input type = 'text' name = 'movein'/> <br>
+<b> Commuting to</b>: <input type = 'text' name = 'work'/> <br>
+<b> Max commute time (minutes)</b>: <input type = 'text' name = 'commute'/> <br>
+<b> Show me local</b>: <select name = "local">
+    <option value="grocery_or_supermarket">Grocery Stores</option>
+    <option value="school">Schools</option>
+    <option value="park">Parks</option>
+    </select>
+<br>
+<br>
+<table>
+<tr>
+<th>Neighborhoods</th>
+<th>Attributes</th>
+</tr>
+<tr>
+<td> <input name="neighborhood[]" type="checkbox" value="alameda" /> alameda <br>
+<input name="neighborhood[]" type="checkbox" value="albany / el cerrito" /> albany / el cerrito <br>
+<input name="neighborhood[]" type="checkbox" value="berkeley" /> berkeley <br>
+<input name="neighborhood[]" type="checkbox" value="berkeley north / hills" /> berkeley north / hills <br>
+<input name="neighborhood[]" type="checkbox" value="concord / pleasant hill / martinez" /> concord / pleasant hill / martinez <br>
+<input name="neighborhood[]" type="checkbox" value="danville / san ramon" /> danville / san ramon <br>
+<input name="neighborhood[]" type="checkbox" value="dublin / pleasanton / livermore" /> dublin / pleasanton / livermore <br>
+<input name="neighborhood[]" type="checkbox" value="emeryville" /> emeryville <br>
+<input name="neighborhood[]" type="checkbox" value="fairfield / vacaville" /> fairfield / vacaville <br>
+<input name="neighborhood[]" type="checkbox" value="fremont / union city / newark" /> fremont / union city / newark <br>
+<input name="neighborhood[]" type="checkbox" value="hayward / castro valley" /> hayward / castro valley <br>
+<input name="neighborhood[]" type="checkbox" value="hercules, pinole, san pablo, el sob" /> hercules, pinole, san pablo, el sob <br>
+<input name="neighborhood[]" type="checkbox" value="lafayette / orinda / moraga" /> lafayette / orinda / moraga <br>
+<input name="neighborhood[]" type="checkbox" value="oakland downtown" /> oakland downtown <br>
+<input name="neighborhood[]" type="checkbox" value="oakland east" /> oakland east <br>
+<input name="neighborhood[]" type="checkbox" value="oakland hills / mills" /> oakland hills / mills <br>
+<input name="neighborhood[]" type="checkbox" value="oakland lake merritt / grand" /> oakland lake merritt / grand <br>
+<input name="neighborhood[]" type="checkbox" value="oakland north / temescal" /> oakland north / temescal <br>
+<input name="neighborhood[]" type="checkbox" value="oakland piedmont / montclair" /> oakland piedmont / montclair <br>
+<input name="neighborhood[]" type="checkbox" value="oakland rockridge / claremont" /> oakland rockridge / claremont <br>
+<input name="neighborhood[]" type="checkbox" value="oakland west" /> oakland west <br>
+<input name="neighborhood[]" type="checkbox" value="pittsburg / antioch" /> pittsburg / antioch <br>
+<input name="neighborhood[]" type="checkbox" value="richmond / point / annex" /> richmond / point / annex <br>
+<input name="neighborhood[]" type="checkbox" value="san leandro" /> san leandro <br>
+<input name="neighborhood[]" type="checkbox" value="vallejo / benicia" /> vallejo / benicia <br>
+<input name="neighborhood[]" type="checkbox" value="walnut creek" /> walnut creek <br>
+</td>
+<td> <input name="attributes[]" type="checkbox" value="private room" /> private room <br>
+<input name="attributes[]" type="checkbox" value="private bath" /> private bath <br>
+<input name="attributes[]" type="checkbox" value="cats are OK - purrr" /> cats ok<br>
+<input name="attributes[]" type="checkbox" value="dogs are OK - wooof" /> dogs ok<br>
+<input name="attributes[]" type="checkbox" value="furnished" />  furnished <br>
+<input name="attributes[]" type="checkbox" value="no smoking" /> no smoking <br>
+<input name="attributes[]" type="checkbox" value="wheelchair access" /> wheelchair access <br>
+<input name="attributes[]" type="checkbox" value="w/d in unit" /> washer/dryer in unit <br>
+<input name="attributes[]" type="checkbox" value="w/d hookups" /> washer/dryer hookups <br>
+<input name="attributes[]" type="checkbox" value="laundry in bldg" /> laundry in building <br>
+<input name="attributes[]" type="checkbox" value="laundry on site" /> laundry on site <br>
+<input name="attributes[]" type="checkbox" value="no laundry on site" /> no laundry on site <br>
+<input name="attributes[]" type="checkbox" value="carport" /> carport <br>
+<input name="attributes[]" type="checkbox" value="attached garage" /> attached garage <br>
+<input name="attributes[]" type="checkbox" value="detached garage" /> detached garage <br>
+<input name="attributes[]" type="checkbox" value="off-street parking" /> off-street parking <br>
+<input name="attributes[]" type="checkbox" value="street parking" />  street parking <br>
+<input name="attributes[]" type="checkbox" value="valet parking" />  valet parking <br>
+<input name="attributes[]" type="checkbox" value="no parking" />  no parking <br>
+</td>
+</tr>
+</table><br>
+Enter a brief description about yourself and your ideal living situation: <br>
+<TEXTAREA NAME="description" ROWS=20 COLS=55 >
+</TEXTAREA>
+<input type = 'submit' name = 'submit' value = 'submit'/>
+</form>
+</body>
+</html>
